@@ -43,7 +43,7 @@ tmux set-option -g pane-active-border-style "$border_style_active_pane"
 tmux set-option -g pane-border-style "$border_style_inactive_pane"
 
 ### Left side
-tmux set-option -g status-left "$(generate_left_side_string)"
+tmux set-option -g status-left " $(generate_left_side_string)"
 
 ### Windows list
 tmux set-window-option -g window-status-format "$(generate_inactive_window_string)" 
